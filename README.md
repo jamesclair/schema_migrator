@@ -1,3 +1,3 @@
 # Schema Migrator Tool
 
-Command line schema migration tool.
+Opinionated DB and language agnostic schema migration CLI tool.

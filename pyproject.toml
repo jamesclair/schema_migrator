@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "schema-migrator"
+version = "0.1.0"
+description = "Command line schema migration tool"
+authors = ["jamesclair <clair.james88@gmail.com>"]
+readme = "README.md"
+packages = [{include = "schema_migrator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
